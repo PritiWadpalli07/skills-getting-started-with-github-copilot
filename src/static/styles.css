@@ -74,6 +74,46 @@ section h3 {
   margin-bottom: 8px;
 }
 
+/* Participants section styling */
+.participants-section {
+  margin-top: 12px;
+}
+
+.participants-section h5 {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #444;
+}
+
+/* reset default ul spacing and layout as flexible chips */
+.participants-list {
+  list-style: none;
+  padding: 0;
+  margin: 6px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* individual participant chip */
+.participant-item {
+  background: linear-gradient(180deg, #ffffff, #f3f6ff);
+  border: 1px solid #d7e0ff;
+  color: #1a237e;
+  padding: 6px 10px;
+  border-radius: 16px;
+  font-size: 13px;
+  box-shadow: 0 1px 0 rgba(12, 35, 99, 0.04);
+}
+
+/* subtle fallback text when no participants */
+.no-participants {
+  margin: 6px 0 0 0;
+  font-size: 13px;
+  color: #666;
+  font-style: italic;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
