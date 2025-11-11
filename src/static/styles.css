@@ -104,6 +104,26 @@ section h3 {
   border-radius: 16px;
   font-size: 13px;
   box-shadow: 0 1px 0 rgba(12, 35, 99, 0.04);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* remove (delete) button next to participant */
+.remove-participant {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 6px;
+  border-radius: 50%;
+}
+
+.remove-participant:hover {
+  background: rgba(198, 40, 40, 0.08);
 }
 
 /* subtle fallback text when no participants */
